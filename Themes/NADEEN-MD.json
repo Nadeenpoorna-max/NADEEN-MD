@@ -1,0 +1,61 @@
+{
+  "__JSON__": true,
+  "AUTHOR": "NADEEN",
+  "LANGUAGE": "english",
+  "LANGCODE": "en",
+  "STRINGS": {
+      "updater": {
+          "UPDATE": "*Your bot is already on latest version Sir*",
+          "NEW_UPDATE": "*There is a new update available for the bot!*\n\n*Changes:*\n",
+          "UPDATED_LOCAL": "*NADEEN-MD Successfully Updated!*"
+      },
+      "global": {
+          "botName": "*NADEEN-MD*",
+          "body": "𝑊ℎ𝑎𝑡𝑠𝑎𝑝𝑝 𝐵𝑜𝑡",
+          "greet2" : ".",
+          "pic1": "https://ibb.co/7KCpHZ3",
+          "pic2": "https://ibb.co/7KCpHZ3",
+          "pic3": "https://ibb.co/7KCpHZ3",
+          "pic4": "https://ibb.co/7KCpHZ3",
+          "pic5": "https://ibb.co/7KCpHZ3",
+          "pic6": "https://ibb.co/7KCpHZ3",
+          "pic7": "https://ibb.co/7KCpHZ3",
+           "greet" : ".",
+         "dotbody" : "I'm Alive.",
+          "fbdown": "https://api.botcahx.biz.id/api/dowloader/tikok?url=${text}&apikey=${Config.botapikey}",
+          "ttdown": "https://api.botcahx.biz.id/api/dowloader/tikok?url=${text}&apikey=${Config.botapikey}",
+          "webss": "https://api.botcahx.biz.id/api/tools/ssweb?link=${text}&apikey=${Config.botapikey}",
+          "apkdown": "https://sl-bot-devolopers-team.herokuapp.com/api/apkdownload?appid=${text}",
+          "ttdownnima": "https://sl-bot-devolopers-team.herokuapp.com/api/tiktokdl?url=https://developers.tiklydown.me/api/download?url=${text}",
+          "promote": "Admin Role Given to my Darling",
+          "pmallow": "*Hii,This is Secktor*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
+          "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _Powered by *NADEEN-MD-WHATSAPP-BOT*_",
+          "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n *Powered by *NADEEN-MD-WHATSAPP-BOT**",
+          "permited": "Hii ${tname} Sir*\n\nNow You are permitted by my owner to pm now.\n\n *Powered by *NADEEN-MD-WHATSAPP-BOT*", 
+          "revoked" : "*Hii ${tname} Sir*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by *NADEEN-MD-WHATSAPP-BOT*_",
+          "demote": "Uhh,Admin Role Taken back",
+          "antlink": "Link Detected.\n*Good Bye Sir*",
+          "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by *~ NADEEN-MD-WHATSAPP-BOT~*",
+          "mention": " කරුණාකර,එය මෙන්ෂන් කරන්න ",
+          "title": "*NADEEN-MD* ",
+          "footer": "
+ɴᴀᴅᴇᴇɴ-ᴍᴅ⦁ ᴍᴀᴅᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ\nʀᴇʟᴇᴀsᴇᴅ ⦁ 2025/01/01",
+          "by": "*NADEEN-MD-WHATSAPP-BOT* ",
+          "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+          "success": "*Successful* ✅",
+          "dot": "Did you mean *help?*",
+          "couple_male": "*I dont want to die alone,I want a female yaar*",
+          "couple_female": "*I dont want to die alone,I want a male yaar*",
+          "admin": "*THIS OWNER CMD* ⛔",
+          "botAdmin": "*එහෙනම්ම,මටත් admin දීපන්..*👨‍💻❗",
+          "owner": "THIS OWNER CMD ⛔",
+          "group": "*මේක වැඩ කරන්නේ groups වලට විතරයි.* ⛔",
+          "private": "*THIS OWNER CMD* ⛔",
+          "bot": "*THIS OWNER CMD* ⛔",
+          "wait": "*Please Wait* 🔄" 
+      },
+      "error": {
+          "text": "*🤒Uhh,Got an Error*"
+      }
+  }
+}
