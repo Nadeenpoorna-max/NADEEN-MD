@@ -31,8 +31,8 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 <br>
  
   <p align="center">  
-  <a href=" https://ibb.co/7KCpHZ3">
-    <img alt="nadeen-md" height="300" src="https://ibb.co/7KCpHZ3">
+  <a href="https://telegra.ph/file/c7ce95554df8fcfa85680.jpg">
+    <img alt="nadeen-md" height="300" src="https://telegra.ph/file/c7ce95554df8fcfa85680.jpg">
     
   
   </a>
