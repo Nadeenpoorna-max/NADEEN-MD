@@ -1,7 +1,8 @@
 {
 
   "name": "NADEEN-MD (1.0.0)",
-  "description": "NADEEN-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️",
+  "description": "NADEEN-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️
+  Created by ~Nadeen Poorna~ ",
   "logo": "https://telegra.ph/file/f2a6ee1ab649a2fb72708.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "nadden-md"],
   "success_url": "/",
