@@ -20,6 +20,12 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=7600bc&center=true&width=910&height=100&lines=THANKS FOR USESING +NADEEN-MD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+NADEEN+POORNA;👨‍💻💝ŋąɖɛɛŋ 🇧​​🇴​​🇹💝👨‍💻​" alt="Typing SVG" /></a>
   </p>
 
+
+ ## DEPLOYMENT METHODS
+
+
+●. ***[SCAN PAIR CODE SERVER](https://pair-web-public.koyeb.app/)***
+
 ### DEVELOPER:
 **GET In Touch with The Owner**
 - [**On YouTube**](https://youtube.com/@DINKA_FILMS)
