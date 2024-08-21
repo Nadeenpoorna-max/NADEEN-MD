@@ -21,6 +21,8 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 
 ## 🇱🇰 ***New bot, latest version 🎉 [new reposity](https://github.com/Nadeenpoorna-max/NADEEN-MD/)***
 
+<p align="center"><img src="https://profile-counter.glitch.me/{Nadeenpoorna-max}/count.svg" alt="Nadeenpoorna-max :: Visitor's Count" /></p>
+
  ## DEPLOYMENT METHODS
 
 
@@ -44,4 +46,4 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 
 ## License
 
-The nadeen-md is made available under the [GPL-3 license](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/LICENCE). 
+The nadeen-md is made available under the [Apache license](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/LICENSE). 
