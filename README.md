@@ -36,6 +36,7 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 
 [![Deploy on heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Nadeenpoorna-max/NADEEN-MD&template=https://github.com/Nadeenpoorna-max/NADEEN-MD.git)
 
+## [Deploy on VPS or PC.](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/deploy-on-vps.md)
   
   
   </a>
