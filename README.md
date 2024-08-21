@@ -38,6 +38,10 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 
 ## [Deploy on VPS or PC.](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/deploy-on-vps.md)
   
-  
+
   </a>
 </p>  
+
+## License
+
+The nadeen-md is made available under the [GPL-3 license](https://github.com/Nadeenpoorna-max/NADEEN-MD/blob/main/LICENCE). 
