@@ -7,6 +7,7 @@ cmd({
     pattern: "song",
     desc: "download song.",
     category: "download",
+    reaction: "🎵"
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -36,7 +37,7 @@ let downloadUrl = down.dl_url
 
 //send audio + document messege
 await conn.sendMessage(from,{audio: {url:downloadUrl,mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl,mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"`NADEEN-MD` 👨‍💻MADE BY NADEEN POORNA👨‍💻 "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl,mimetype:"audio/mpeg",fileName:data.title + ".mp3",caption:"`ɴᴀᴅᴇᴇɴ-ᴍᴅ` ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ"},{quoted:mek})
     
 }catch(e){
   console.log(e)
@@ -49,6 +50,7 @@ cmd({
     pattern: "video",
     desc: "download videos.",
     category: "download",
+     reaction: "🎥"
     filename: __filename
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
@@ -78,7 +80,7 @@ let downloadUrl = down.dl_url
 
 //send video + document messege
 await conn.sendMessage(from,{video: {url:downloadUrl,mimetype:"video/mp4"},{quoted:mek})
-await conn.sendMessage(from,{document: {url:downloadUrl,mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"`NADEEN-MD` 👨‍💻MADE BY NADEEN POORNA👨‍💻 "},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl,mimetype:"video/mp4",fileName:data.title + ".mp4",caption:"`ɴᴀᴅᴇᴇɴ-ᴍᴅ` ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ"},{quoted:mek})
     
 }catch(e){
   console.log(e)
