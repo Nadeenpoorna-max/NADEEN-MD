@@ -22,5 +22,5 @@ ALIVE_MSG: process.env.ALIVE_MSG || "👨‍💻💝 Hello, I am `NADEEN-MD`,I a
 
 🌀 Follow WhatsApp Channel - https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
 ----------------------------------------------------------
- `ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ`"
+ `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻`"
 };
