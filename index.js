@@ -70,7 +70,7 @@ console.log('Plugins installed successful ✅')
 console.log('ŋąɖɛɛŋ-🇧​​🇴​​🇹​ connected to whatsapp ✅')
 
 let up = `NADEEN-MD​ connected successful ✅
-          `ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ` 
+          > `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻` 
           ` Contact Bot Owner - +94711 451 319` \n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f5e0751267307ac475187.mp4` }, caption: up })
