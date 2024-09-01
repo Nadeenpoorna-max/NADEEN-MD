@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('ŋąɖɛɛŋ-🇧​​🇴​​🇹​ connected to whatsapp ✅')
 
-let up = `NADEEN-MD​ connected successful ✅ ` Contact Bot Owner - +94711 451 319` \n\nPREFIX: ${prefix}`;
+let up = '`NADEEN-MD​ connected successful ✅`' \n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f5e0751267307ac475187.mp4` }, caption: up })
 
