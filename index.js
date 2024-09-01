@@ -69,9 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('ŋąɖɛɛŋ-🇧​​🇴​​🇹​ connected to whatsapp ✅')
 
-let up = `NADEEN-MD​ connected successful ✅
-          > `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻` 
-          ` Contact Bot Owner - +94711 451 319` \n\nPREFIX: ${prefix}`;
+let up = `NADEEN-MD​ connected successful ✅ ` Contact Bot Owner - +94711 451 319` \n\nPREFIX: ${prefix}`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f5e0751267307ac475187.mp4` }, caption: up })
 
@@ -170,9 +168,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, nadeen-bot started✅ 
-         
- > ᴛʜɪꜱ ꜱʏꜱᴛᴇᴍ ᴄʀᴇᴀᴛᴇ ʙʏ ©ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ ");
+res.send("hey, nadeen-md started✅        >Made by Nadeen Poorna");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
