@@ -22,7 +22,7 @@
     },
    "ALIVE_MSJ": {
     "description": "enter alive message",
-     "value": "Hello, I am *NADEEN-MD*,I am alive Now! 🇱🇰 👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻"
+     "value": "Put your Alive Messege"
     },
   "HEROKU_APP_NAME": {
     "description": "put your heroku_app_name",
