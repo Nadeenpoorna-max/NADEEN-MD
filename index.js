@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94779415698']
+const ownerNumber = ['94711451319']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting wa bot 🧬...");
+console.log("Connecting Nadeen-md 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `Wa-BOT connected successful ✅\n\nPREFIX: ${prefix}`;
+let up = `Nadeen-MD connected successful ✅\n\nPREFIX: ${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f5e0751267307ac475187.mp4` }, caption: up })
 
 }
 })
@@ -87,7 +87,7 @@ const type = getContentType(mek.message)
 const content = JSON.stringify(mek.message)
 const from = mek.key.remoteJid
 const quoted = type == 'extendedTextMessage' && mek.message.extendedTextMessage.contextInfo != null ? mek.message.extendedTextMessage.contextInfo.quotedMessage || [] : []
-const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : ''
+const body = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : (type == 'imageMessage') && mek.message.imageMessage.caption ? mek.message.imageMessage.caption : (type == 'videoMessage') && mek.message.videoMessage.caption ? mek.message.videoMessage.caption : 'NADEEN-MD'
 const isCmd = body.startsWith(prefix)
 const command = isCmd ? body.slice(prefix.length).trim().split(' ').shift().toLowerCase() : ''
 const args = body.trim().split(/ +/).slice(1)
@@ -168,7 +168,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, bot started✅");
+res.send("hey,nadeen-md started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
