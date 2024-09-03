@@ -5,22 +5,10 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID,
-ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/f2a6ee1ab649a2fb72708.jpg",
-ALIVE_MSG: process.env.ALIVE_MSG || "👨‍💻💝 Hello, I am `NADEEN-MD`,I am alive Now! 🇱🇰
-
-> 👨🏻‍💻 Bot Developed by *@NADEEN POORNA*   
-
-> 🥏Contact Bot Owner - +94711451319 
-
-> 🛡 Powered By *DINKA FILMS* 
-----------------------------------------------------------
-⚙ Type *.menu* to get the bot's command list. 
-----------------------------------------------------------
-----------------------------------------------------------
-🌀 YouTube - www.youtube.com/@DINKA_FILMS
-
-🌀 Follow WhatsApp Channel - https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
-----------------------------------------------------------
- `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻`"
+SESSION_ID: process.env.SESSION_ID || "put session_id",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://telegra.ph/file/c7ce95554df8fcfa85680.jpg",
+ALIVE_MSG: process.env.ALIVE_MSG || "*👋 Hello ${pushname}* ✫💫`NADEEN-MD`💫✫\n\n*Hey there!*\n\n 💫 *ŋąɖɛɛŋ0-ᴍᴅ ωнαтѕαρρ вσт ιѕ υρ αη∂ яυηηιηg!*\n🖤 *яυηтιмє : 1 hour, 6 minutes, 43 seconds\n🤍 *¢яєαтє∂ ву:* NADEEN POORNA\n\n*𝐻𝑒𝓇𝑒'𝓈 𝓌𝒽𝒶𝓉 𝐼 𝒸𝒶𝓃 𝒹𝑜*\n💿 *Download Songs & Videos*\n📰 *Fetch Latest News*\n🎭 *Entertain with Fun Commands*\n🔧 *Manage Groups*\n\n*𝒮𝓉𝒶𝓎 𝒸𝑜𝓃𝓃𝑒𝒸𝓉𝑒𝒹 𝒶𝓃𝒹 𝑒𝓃𝒿𝑜𝓎 𝓉𝒽𝑒 𝓈𝑒𝓇𝓋𝒾𝒸𝑒𝓈!*\n\n🎆POWERED BY : DINKA CREW\nMANHIRU YUWAN\n_*© NADEEN- MD*_\n\n💻 *GitHub:*https://github.com/Nadeenpoorna-max/NADEEN-MD\n `👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻`"",
+AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
+MODE: process.env.MODE || "public",
+AUTO_VOICE:"true"
 };
