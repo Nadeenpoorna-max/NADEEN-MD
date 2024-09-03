@@ -5,13 +5,9 @@ const {fetchJson,cmd, tlang,sleep } = require('../lib')
 cmd({
 
             pattern: "hack",
-
             category: "prank",
-
             desc: "hacking prank",
-
-            use: ' ',
-
+            react: '💣 ',
             filename: __filename,
 
         },
