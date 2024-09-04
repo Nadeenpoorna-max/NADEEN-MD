@@ -15,7 +15,7 @@ const voice = {
     menu: 'media/AUD-20240901-WA0161.mp3'
 }
 
-let dec = `👋 *Hello ${pushname}*
+let dec = `👋 *Hello ${pushname} * `
 *╭───────────◉◉►*
 *│Hey, I'm *NADEEN-MD*, Created By*
 *│NADEEN POORNA✨🤍*
