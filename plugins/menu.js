@@ -59,7 +59,7 @@ let dec = `👋 *Hello ${pushname} * `
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/7e1f9a45d326abc34d161.jpg`},caption:dec},{quoted:mek});
+await conn.sendMessage(from,{image:{url: `https://telegra.ph/file/c7ce95554df8fcfa85680.jpg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
