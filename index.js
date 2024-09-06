@@ -144,7 +144,6 @@ if(senderNumber.includes("94711451319")){
 if(isReact) return
 m.react("👨‍💻")
 }
-//=====================✓
 //=========CO-OWNERS - REACTION ===============================  
 if(senderNumber.includes("94779483535,94728840491,94775383340")){
 if(isReact) return
