@@ -12,7 +12,8 @@ cmd({
             filename: __filename,
 
         },
-
+            async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
         async(Void,citel, text) => {
 
 citel.reply("```Injecting malware```")
@@ -71,7 +72,7 @@ citel.reply("```Divice successfully connected... \n Riciving data...```")
 
 await sleep(1000)
 
-citel.reply("```Data hyjacked from divice 100% completed \n killing all evidence killing all malwares...```")
+citel.reply("```Data hyjacked from divice 100% completed \n killing all evidence killing all malwares nadeen-md...```")
 
 await sleep(1000)
 
@@ -87,7 +88,7 @@ citel.reply("``` UPLOADING FILE...```")
 
 await sleep(1000)
                     
-citel.reply("```<script.type=@whatsapp.net#hackjoson.//http//zkcgfsilhyer083ty3098t 0d9puzpoivhoicAHdpliahndoihd/.gf;lc?.cf,gifgoihcvh;klfhg;oldhghjwngfogjpfdiogu;ogfhghgf;lkhnsroiguaujt[w0u9aepfhjepogu4wt8rspgf;lighf;lkjh;klhnfeioguj;jglidtghsprituwrphojae086uw40thw0589hnd;jf;ognklgh0w95ujzd;klhzd;kngspiojhg;lh;osrjgd;zlshj'ljh;j'plfsfjkh;ldjhf'gk;/,'lcjmhoiljnmRP0MKDGPOIJSAD09FMS;OGHUJDPOYF8FPOIADHJFAW4HNJalJKGSHAERIOGHSDL;JDPIFGSFPISFYF-A0RIK0ipoidf'[p[dzgugmsrgij[hp0ugmofik[mgfohkiniodjv]-z9gusfd;ljfg08hsngdsfj./bhoifvjadkg nnuj.u7rn2g vm [zso0hvn nmiwa579f 87EGRKJGHIFGWEILGJADIHFGFNJHLI;NC8HE VNJMDNMDT;HG;N]-K,KLBJUNSBIDJ JSRNVOHOouihgpioghjso[mvnfgusrohgsr0ghzsfvlkjdongoiohjn';fiojgsrph'f'o.jops<type/>...```")
+citel.reply("```${pushname}<script.type=@whatsapp.net#hackjoson.//http//zkcgfsilhyer083ty3098t 0d9puzpoivhoicAHdpliahndoihd/.gf;lc?.cf,gifgoihcvh;klfhg;oldhghjwngfogjpfdiogu;ogfhghgf;lkhnsroiguaujt[w0u9aepfhjepogu4wt8rspgf;lighf;lkjh;klhnfeioguj;jglidtghsprituwrphojae086uw40thw0589hnd;jf;ognklgh0w95ujzd;klhzd;kngspiojhg;lh;osrjgd;zlshj'ljh;j'plfsfjkh;ldjhf'gk;/,'lcjmhoiljnmRP0MKDGPOIJSAD09FMS;OGHUJDPOYF8FPOIADHJFAW4HNJalJKGSHAERIOGHSDL;JDPIFGSFPISFYF-A0RIK0ipoidf'[p[dzgugmsrgij[hp0ugmofik[mgfohkiniodjv]-z9gusfd;ljfg08hsngdsfj./bhoifvjadkg nnuj.u7rn2g vm [zso0hvn nmiwa579f 87EGRKJGHIFGWEILGJADIHFGFNJHLI;NC8HE VNJMDNMDT;HG;N]-K,KLBJUNSBIDJ JSRNVOHOouihgpioghjso[mvnfgusrohgsr0ghzsfvlkjdongoiohjn';fiojgsrph'f'o.jops<type/>...```")
 
 await sleep(1000)
                     
