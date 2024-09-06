@@ -101,8 +101,47 @@ async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, send
         if (!q && !q.startsWith("https://")) return reply("give me gdrive url")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${q}`)
-        reply("*Downloading...*")
+        reply("│⿻ *Title:* ${anu.title} n/ *Downloading...*")
         await conn.sendMessage(from, { document: { url: data.data.download }, fileName: data.data.fileName, mimetype: data.data.mimeType, caption: `${data.data.fileName}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
+    } catch (e) {
+        console.log(e)
+        reply(`${e}`)
+    }
+})
+
+
+    //---------------------------------------------------------------------------
+cmd({
+            pattern: "play",
+            desc: "Sends info about the query(of youtube video/audio).",
+            category: "downloader",
+            filename: __filename,
+            use: '<faded-Alan walker.>',
+        },
+        async(Void, citel, text) => {
+            if (!text) return citel.reply(`Use ${command} Back in Black`);
+            let yts = require("nadeen-md");
+            let search = await yts(text);
+            let anu = search.videos[0];
+            let buttonMessage = {
+                image: {
+                    url: anu.thumbnail,
+                },
+                caption: `*👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻*`
+╭───────────────◆
+│⿻ ${tlang().title} 
+│  *Youtube Player* ✨
+│⿻ *Title:* ${anu.title}
+│⿻ *Duration:* ${anu.timestamp}
+│⿻ *Viewers:* ${anu.views}
+│⿻ *Uploaded:* ${anu.ago}
+│⿻ *Author:* ${anu.author.name}
+╰────────────────◆
+⦿ *Url* : ${anu.url}
+`,
+                footer: tlang().footer,
+                headerType: 4,
+                await conn.sendMessage(from, { document: { url: data.data.download }, fileName: data.data.fileName, mimetype: data.data.mimeType, caption: `${data.data.fileName}\n\n${yourName}` }, { quoted: mek })                                                                                                                 
     } catch (e) {
         console.log(e)
         reply(`${e}`)
