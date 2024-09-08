@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/c7ce95554df8fcfa85680.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f2a6ee1ab649a2fb72708.jpg` }, caption: up })
 
 }
 })
@@ -144,12 +144,8 @@ if(senderNumber.includes("94711451319")){
 if(isReact) return
 m.react("👨‍💻")
 }
-//=========CO-OWNERS - REACTION ===============================  
-if(senderNumber.includes("94779483535,94728840491,94775383340")){
-if(isReact) return
-m.react("👾")
-}
 //=====================✓
+
 if (config.AUTO_VOICE === 'true') {
 const url = 'https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2'
 let { data } = await axios.get(url)
