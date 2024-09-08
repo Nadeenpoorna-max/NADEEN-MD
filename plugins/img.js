@@ -41,7 +41,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                 caption: `
 🌟 *Image ${i + 1} from your search!* 🌟
 ✨ *NADEEN-MD IMG DOWNLOADER* ✨
-        Enjoy these images! 📸
+*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*
 `
 }, { quoted: mek });
 }
