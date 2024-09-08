@@ -7,7 +7,7 @@
     "start": "pm2 start index.js --deep-monitoring --attach --name nadeen",
     "stop": "pm2 stop nadeen-md",
     "restart": "pm2 restart nadeen-md"
-  },
+ },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
     "@adiwajshing/keyed-db": "^0.2.4",
