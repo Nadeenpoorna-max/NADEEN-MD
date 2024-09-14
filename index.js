@@ -69,7 +69,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}`;
+let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}\n 👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\n 🌀 Follow WhatsApp Channel - https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I \n Version - 1.0.2`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f2a6ee1ab649a2fb72708.jpg` }, caption: up })
 
@@ -147,7 +147,7 @@ m.react("👨‍💻")
 //=====================✓
 
 if (config.AUTO_VOICE === 'true') {
-const url = 'https://raw.githubusercontent.com/DarkYasiyaofc/VOICE/main/Voice-Raw/FROZEN-V2'
+const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
