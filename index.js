@@ -146,8 +146,8 @@ m.react("👨‍💻")
 }
 //=====================✓
 
-if (config.AUTO_VOICE === 'flase') {
-const url = ''
+if (config.AUTO_VOICE === 'true') {
+const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
