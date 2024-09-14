@@ -33,6 +33,12 @@ NADEEN-POORNA has been designed to make things easier and fun while using WhatsA
 - [**On YouTube**](https://youtube.com/@DINKA_FILMS)
 - [**Via WhatsApp**](https://wa.me/94711451319)
 
+### SPECIAL THANKS ❤ 
+> Manhiru Yuwan
+> Dushani
+> Induwara
+> vishva
+
 ### CONTRIBUTIONS 
 > Contributions to Nadeen-Md are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
 
