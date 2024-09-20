@@ -43,7 +43,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '⚠️ ``` SICURITY CODE = *WE4FR3G*```',
             '',
             'transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%',
-            'Divice successfully connected... \n Riciving data...,
+            'Divice successfully connected... \n Riciving data...',
             '',
             ' window[addEventListener[(resycing,fundfrhncanvaswidthwindowinnerWidth3*canvasheightwindowinnerHeight3;canvasBarsid[th = windowinnerWidth3 canvasBarsheight = canvasheight; outputConsolestyleheight = (windowinnerHeight  + px;outputConsoletyle,top = window,innerHeight / ,, + ;focal = canvas,width / ;vpx = canvas,width / ;vpy = canvas,height2strokeStylectxBars-strokeS-tylectxBars-fil-lStyle-',
             '``` SUCCESSFULLY CONNECTED DEVICE ```',
