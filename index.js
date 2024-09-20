@@ -154,8 +154,7 @@ m.react("👩🏽‍💻")
 }
 //=====================✓
 
-if (config.AUTO_VOICE === 'true') {
- if (isOwner) return;        
+if (config.AUTO_VOICE === 'true') {    
 const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
 for (vr in data){
