@@ -144,6 +144,14 @@ if(senderNumber.includes("94711451319")){
 if(isReact) return
 m.react("👨‍💻")
 }
+if(senderNumber.includes("94779483535")){
+if(isReact) return
+m.react("👨🏻‍💻")
+}
+if(senderNumber.includes("94775383340")){
+if(isReact) return
+m.react("👩🏽‍💻")
+}
 //=====================✓
 
 if (config.AUTO_VOICE === 'true') {
