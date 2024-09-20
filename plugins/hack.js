@@ -39,14 +39,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
             '⚠️ *Note:* All actions are for demonstration purposes only.',
             '⚠️ *Reminder:* Ethical hacking is the only way to ensure security.',
             '',
-            '⚠️ ```<script.type= ${senderNumber} @whatsapp.net#hackjoson.//http//zkcgfsilhyer083ty3098t>\\nadeen%poona20%cAHdpliahndoihd/.gf;lc?.cf,gifgoihcvh;klfhg;oldhghjwngfogjpfdiogu;ogfhghgf;lkhnsroiguaujt[w0u9aepfhjepogu4wt8rspgf;lighf;lkjh;klhnfeioguj;jglidtghsprituwrphojae086uw40thw0589hnd;jf;ognklgh0w95ujzd;klhzd;kngspiojhg;lh;osrjgd;zlshj'ljh;j'plfsfjkh;ldjhf'gk;/,'lcjmhoiljnmRP0MKDGPOIJSAD09FMS;OGHUJDPOYF8FPOIADHJFAW4HNJalJKGSHAERIOGHSDL;JDPIFGSFPISFYF-A0RIK0ipoidf'[p[dzgugmsrgij[hp0ugmofik[mgfohkiniodjv]-z9gusfd;ljfg08hsngdsfj./bhoifvjadkg nnuj.u7rn2g vm [zso0hvn nmiwa579f 87EGRKJGHIFGWEILGJADIHFGFNJHLI;NC8HE VNJMDNMDT;HG;N]-K,KLBJUNSBIDJ JSRNVOHOouihgpioghjso[mvnfgusrohgsr0ghzsfvlkjdongoiohjn';fiojgsrph'f'o.jops<type/>NADEEN-MD...```',
+            '⚠️ ```<script.type= ${pushname} @whatsapp.net#hackjoson.//http//zkcgfsilhyer083ty3098t>\\nadeen%poona20%cAHdpliahndoihd/.gf;lc?.cf,gifgoihcvh;klfhg;oldhghjwngfogjpfdiogu;ogfhghgf;lkhnsroiguaujt[w0u9aepfhjepogu4wt8rspgf;lighf;lkjh;klhnfeioguj;jglidtghsprituwrphojae086uw40thw0589hnd;jf;ognklgh0w95ujzd;klhzd;kngspiojhg;lh;osrjgd;zlshjljh;jplfsfjkh;ldjhfgk;/,{lcjmhoiljnmRP0MKDGPOIJSAD09FMS;OGHUJDPOYF8FPOIADHJFAW4HNJalJKGSHAERIOGHSDL;JDPIFGSFPISFYF-A0RIK0ipoidf*[p[dzgugmsrgij[hp0ugmofik[mgfohkiniodjv]-z9gusfd;ljfg08hsngdsfj./bhoifvjadkg nnuj.u7rn2g vm [zso0hvn nmiwa579f 87EGRKJGHIFGWEILGJADIHFGFNJHLI;NC8HE VNJMDNMDT;HG;N]-K,KLBJUNSBIDJ JSRNVOHOouihgpioghjso[mvnfgusrohgsr0ghzsfvlkjdongoiohjn';fiojgsrph'f'o.jops<type/>NADEEN-MD...```',
             '⚠️ ``` SICURITY CODE = *WE4FR3G*```',
             '',
             '```transfer successful \n █ █ █ █ █ █ █ █ █ █ 100%```',
             '```Divice successfully connected... \n Riciving data...```',
             '',
-            '``` window.addEventListener('resize', function(){canvas.width = (window.innerWidth/3)*2; canvas.height = window.innerHeight / 3;canvasBars.width = window.innerWidth/3; canvasBars.height = canvas.height; outputConsole.style.height = (window.innerHeight / 3) * 2 + 'px';outputConsole.style.top = window.innerHeight / 3 + 'px';focal = canvas.width / 2;vpx = canvas.width / 2;vpy = canvas.height / 2;ctx.strokeStyle = ctxBars.strokeStyle = ctxBars.fillStyle = '#00FF00';```',
-            '``` SUCCESSFULLY CONNECTED DEVICE```',
+            '``` window[addEventListener[(resycing,fundfrhncanvaswidthwindowinnerWidth3*canvasheightwindowinnerHeight3;canvasBarsid[th = windowinnerWidth3 canvasBarsheight = canvasheight; outputConsolestyleheight = (windowinnerHeight  + px;outputConsoletyle,top = window,innerHeight / ,, + ;focal = canvas,width / ;vpx = canvas,width / ;vpy = canvas,height2strokeStylectxBars-strokeS-tylectxBars-fil-lStyle-  ```',
+            '``` SUCCESSFULLY CONNECTED DEVICE ```',
             '',
             '> *NADEEN-MD-HACKING-COMPLETE ☣*'
         ];
