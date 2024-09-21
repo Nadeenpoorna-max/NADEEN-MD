@@ -14,7 +14,7 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
     
 const voice = {
-    menu: 'media/AUD-20240904-WA0426.mp3'
+    menu: 'media/AUD-20240901-WA0161.mp3'
 }
 
 let menu = {
@@ -89,7 +89,7 @@ let madeMenu = ` *👋 Hello ${pushname}*
 
 await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
 
-return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/13/83ac01c405f9d78df8dacb96400ac5c2.jpeg`},caption:madeMenu},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/image/NADEEN-MD.hdw5Aa`},caption:madeMenu},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`Error`)
