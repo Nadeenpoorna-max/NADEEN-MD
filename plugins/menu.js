@@ -1,1 +1,97 @@
-const _0x3e4a97=_0xffb8;function _0xffb8(_0x236ee6,_0x478219){const _0x1c9cbe=_0x1c9c();return _0xffb8=function(_0xffb849,_0x4f31ae){_0xffb849=_0xffb849-0xd2;let _0x6db491=_0x1c9cbe[_0xffb849];return _0x6db491;},_0xffb8(_0x236ee6,_0x478219);}(function(_0x2625c1,_0x2b49d7){const _0x4d9623=_0xffb8,_0x1e62f9=_0x2625c1();while(!![]){try{const _0x1ba640=parseInt(_0x4d9623(0xd5))/0x1*(-parseInt(_0x4d9623(0xd7))/0x2)+parseInt(_0x4d9623(0xd3))/0x3+parseInt(_0x4d9623(0xe0))/0x4+-parseInt(_0x4d9623(0xda))/0x5*(-parseInt(_0x4d9623(0xd8))/0x6)+-parseInt(_0x4d9623(0xe2))/0x7*(parseInt(_0x4d9623(0xd9))/0x8)+parseInt(_0x4d9623(0xdd))/0x9*(-parseInt(_0x4d9623(0xdc))/0xa)+parseInt(_0x4d9623(0xe1))/0xb*(parseInt(_0x4d9623(0xd4))/0xc);if(_0x1ba640===_0x2b49d7)break;else _0x1e62f9['push'](_0x1e62f9['shift']());}catch(_0x3cff53){_0x1e62f9['push'](_0x1e62f9['shift']());}}}(_0x1c9c,0xe8a46));const {cmd,commands}=require(_0x3e4a97(0xde));cmd({'pattern':_0x3e4a97(0xe3),'desc':'menu\x20the\x20bot','category':_0x3e4a97(0xe3),'react':'📜','filename':__filename},async(_0x5606c2,_0x36a3a3,_0x24027d,{from:_0x2de5d9,quoted:_0x306bd0,body:_0x3e87aa,isCmd:_0x271605,command:_0x1cb8a5,args:_0x289d17,q:_0x50e2ce,isGroup:_0x290473,sender:_0x210329,senderNumber:_0x2b4e2a,botNumber2:_0x5ef02c,botNumber:_0x391028,pushname:_0x4e7ef5,isMe:_0x1f6868,isOwner:_0x3c6797,groupMetadata:_0x214c7b,groupName:_0x3663cf,participants:_0x3b10f9,groupAdmins:_0x4a7bd5,isBotAdmins:_0x5fdf8e,isAdmins:_0x14d697,reply:_0x415486})=>{const _0x227924=_0x3e4a97;try{const _0x42fd8={'menu':_0x227924(0xd2)};let _0x26ac04='👋\x20*Hello\x20'+_0x4e7ef5+'*\x0a*╭───────────◉◉►*\x0a*│Hey,\x20I\x27m\x20𝐍𝐀𝐃𝐄𝐄𝐍-𝐌𝐃,\x20Created\x20By*\x0a*│ɴᴀᴅᴇᴇɴ\x20ᴘᴏᴏʀɴᴀ✨🍂*\x0a*│*\x0a*│I\x27m\x20always\x20here\x20for\x20help\x20you.😇\x20Love\x20│you\x20forever\x20♥️*\x0a*╰───────────◉◉►*\x0a\x0a*╭───────────◎◎►*\x0a│🔮\x20𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱\x20𝗠𝗲𝗻𝘂\x20🧸\x0a*│\x20─────────*\x0a*│►.song*\x0a*│►.video*\x0a*│►.fb*\x0a*│►.tt*\x0a*│►.mediafire*\x0a*│►.twitter*\x0a*│►.gdrive*\x0a*│►.img*\x0a*│─────────\x0a│🔍\x20𝐒𝐞𝐚𝐫𝐜𝐡\x20𝗠𝗲𝗻𝘂\x20🔍\x0a*│─────────*\x0a*│►.movie*\x0a*│─────────│💃\x20𝗔𝗜\x20𝗠𝗲𝗻𝘂\x20💃\x0a*│─────────*\x0a*│►.ai*\x0a*│►.gen\x20(comming\x20soon!)*\x0a│─────────\x0a│⭐\x20𝗢𝘄𝗻𝗲𝗿\x20𝗠𝗲𝗻𝘂\x20⭐\x0a*│─────────*\x0a*│►.restart*\x0a│─────────\x0a│💗\x20𝗠𝗔𝗜𝗡\x20𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦💗\x0a*│─────────*\x0a*│►.menu*\x0a*│►.alive*\x0a*│►.ping*\x0a*│►.repo*\x0a*│►.owner*\x0a*│►.news*\x0a*│🎉\x20𝐅𝐮𝐧\x20𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦🎉\x0a*│─────────*\x0a*│►.hack*\x0a*╰───────────◎◎►*\x0a*👨‍💻©ɴᴀᴅᴇᴇɴ\x20-ᴍᴅ\x20ᴍᴀᴅᴇ\x20ʙʏ\x20ɴᴀᴅᴇᴇɴ\x20ᴘᴏᴏʀɴᴀ👨‍💻*';await _0x5606c2[_0x227924(0xd6)](_0x2de5d9,{'audio':{'url':_0x42fd8[_0x227924(0xe3)]},'mimetype':_0x227924(0xdb),'ptt':!![]},{'quoted':_0x36a3a3}),await _0x5606c2[_0x227924(0xd6)](_0x2de5d9,{'image':{'url':_0x227924(0xe4)},'caption':_0x26ac04},{'quoted':_0x36a3a3});}catch(_0x5760d6){console[_0x227924(0xdf)](_0x5760d6),_0x415486(''+_0x5760d6);}});function _0x1c9c(){const _0x329c74=['audio/mp4','200sUXQAv','456714enlOip','../command','log','1697332FzlsIt','1694jJuHAf','4242FeAyaE','menu','https://telegra.ph/file/c7ce95554df8fcfa85680.jpg','media/AUD-20240901-WA0161.mp3','2459862FbQwby','144792sZEuRN','43DwyLoY','sendMessage','10412tvTaQO','42znmMxy','16032hamEtq','216895jFAfJC'];_0x1c9c=function(){return _0x329c74;};return _0x1c9c();}
+const config = require('../config')
+const {cmd , commands} = require('../command')
+const os = require("os")
+const {runtime} = require('../lib/functions')
+
+cmd({
+    pattern: "menu",
+    desc: "To get the menu.",
+    react: "📜",
+    category: "main",
+    filename: __filename
+},
+async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
+try{
+    
+const voice = {
+    menu: 'media/AUD-20240904-WA0426.mp3'
+}
+
+let menu = {
+main: '',
+download: '',
+group: '',
+owner: '',
+convert: '',
+search: '',
+fun: '',
+voice: '',
+other: ''
+};
+
+for (let i = 0; i < commands.length; i++) {
+if (commands[i].pattern && !commands[i].dontAddCommandList) {
+menu[commands[i].category] += `.${commands[i].pattern}\n`;
+ }
+}
+
+let madeMenu = ` *👋 Hello ${pushname}*
+
+✨ 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗡𝗔𝗗𝗘𝗘𝗡-𝗠𝗗! ✨ 
+╭─「 ᴄᴏᴍᴍᴀɴᴅꜱ ᴘᴀɴᴇʟ」
+│◈ ʀᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}
+│◈ ᴏᴡɴᴇʀ ɴᴀᴍᴇ : 🇳​​🇦​​🇩​​🇪​​🇪​​🇳​ ​🇵​​🇴​​🇴​​🇷​​🇳​​🇦​ [​🇭​​🇴​​🇷​​🇮​​🇿​​🇴​​🇳​ ​🇲​​🇦​​🇹​​🇷​​🇮​​🇽​]
+│◈ ᴏᴡɴᴇʀ ɴᴜᴍʙᴇʀ : 94711451319
+╰──────────●●►
+╭──────────●●►
+ 📥 *𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.download}
+╰───────────●●►
+╭──────────●●►
+ 🔧 *𝐌𝐚𝐢𝐧 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.main}
+╰───────────●●►
+╭──────────●●►
+ 🎉 *𝐅𝐮𝐧 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.fun}
+╰───────────●●►
+╭──────────●●►
+ 🔄 *𝐂𝐨𝐧𝐯𝐞𝐫𝐭 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.convert}
+╰───────────●●►
+╭──────────●●►
+ 🔍 *𝐒𝐞𝐚𝐫𝐜𝐡 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.search}
+╰───────────●●►
+╭──────────●●►
+ 👥 *𝐆𝐫𝐨𝐮𝐩 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.group}
+╰───────────●●►
+╭──────────●●►
+ 🔒 *𝐎𝐰𝐧𝐞𝐫 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.owner}
+╰───────────●●►
+╭──────────●●►
+ ⚙️ *𝐎𝐭𝐡𝐞𝐫 𝐌𝐞𝐧𝐮*
+  ───────
+ ${menu.other}
+╰───────────●●►
+
+*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*
+`
+
+await conn.sendMessage(from, { audio: { url: voice.menu }, mimetype: 'audio/mp4', ptt: true }, { quoted: mek })
+
+return await conn.sendMessage(from,{image: {url: `https://imgtr.ee/images/2024/09/13/83ac01c405f9d78df8dacb96400ac5c2.jpeg`},caption:madeMenu},{quoted: mek})
+}catch(e){
+console.log(e)
+reply(`Error`)
+}
+})
