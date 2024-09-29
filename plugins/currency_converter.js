@@ -3,7 +3,7 @@ const config = require('../config'); // Make sure to add your API key here
 const { cmd, commands } = require('../command');
 
 cmd({
-    pattern: "convert",
+    pattern: "currencyconvert",
     desc: "Convert an amount from one currency to another.",
     category: "convert",
     react: "💱",
