@@ -28,13 +28,17 @@ let about = ` *👋 Hello ${pushname}*
 
 *🎃NADEEN-MD Support Channels🎃*
 
-*Youtube Channel Link:* https://www.youtube.com/@DINKA_FILMS
+*🔰Youtube Channel Link:* https://www.youtube.com/@DINKA_FILMS
 
-*Whatsapp Channel Link:* https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
+*⚜Whatsapp Channel Link:* https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
+
+*👾Contact Bot Owner:* 0711451319
+
+*👾Cantact Bot Co-Owner :* 0775383340
 
 *©ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*`
 
-return await conn.sendMessage(from,{image: {url:`https://ibb.co/7KCpHZ3`},caption:about},{quoted: mek})
+return await conn.sendMessage(from,{image: {url:`https://www.imgtr.net/ib/7ghhUAnAw1MgXnU_1728205341.png`},caption:about},{quoted: mek})
 
 }catch(e){
 
