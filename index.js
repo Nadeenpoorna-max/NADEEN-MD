@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}\n👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\nContact Owner - https://wa.me/+94711451319text=hi_nadeen-md_owner_💝`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://www.imgtr.net/ib/kfjxCv0VusdlibV_1728207446.png` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/rRdKMrE.png` }, caption: up })
 
 }
 })
@@ -151,6 +151,14 @@ m.react("👨🏻‍💻")
 if(senderNumber.includes("94775383340")){
 if(isReact) return
 m.react("👩🏽‍💻")
+}
+if(senderNumber.includes("94753751559")){
+if(isReact) return
+m.react("👾")
+}
+if(senderNumber.includes("94771588807")){
+if(isReact) return
+m.react("👾")
 }
 //=====================✓
 
