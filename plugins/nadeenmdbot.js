@@ -8,7 +8,7 @@ cmd({
 
     pattern: "nadeenmd",
     desc: "To get the bot informations.",
-    react: "👨🏻‍💻",
+    react: "🔰",
     category: "main",
     filename: __filename
 
@@ -34,7 +34,7 @@ let about = ` *👋 Hello ${pushname}*
 
 *👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻*`
 
-return await conn.sendMessage(from,{image: {url:`https://imgtr.ee/images/2024/09/21/e406ad995acfb5710f1d47b76fe8789f.jpeg`},caption:about},{quoted: mek})
+return await conn.sendMessage(from,{image: {url:`https://www.imgtr.net/ib/7ghhUAnAw1MgXnU_1728205341.png`},caption:about},{quoted: mek})
 
 }catch(e){
 
