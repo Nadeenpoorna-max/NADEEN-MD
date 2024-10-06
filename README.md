@@ -1,6 +1,6 @@
 ## NADEEN-MD👨‍💻 - A Javascript WhatsApp User Bot
 NADEEN-POORNA has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️
-### `1.0.3 Version`
+### `1.0.4 Version`
 😎 `The main goal of creating this bot is to fully leverage WhatsApp and simplify its functionality.`
 
 <br>
