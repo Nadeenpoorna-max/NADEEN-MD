@@ -71,7 +71,7 @@ console.log('Bot connected to whatsapp ✅')
 
 let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}\n👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\nContact Owner - https://wa.me/+94711451319text=hi_nadeen-md_owner_💝`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://telegra.ph/file/f2a6ee1ab649a2fb72708.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://www.imgtr.net/ib/kfjxCv0VusdlibV_1728207446.png` }, caption: up })
 
 }
 })
