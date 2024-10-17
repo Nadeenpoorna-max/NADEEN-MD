@@ -31,12 +31,9 @@
     "@bochilteam/scraper": "latest",
     "@sl-code-lords/si-subdl": "^1.1.1",
     "@sl-code-lords/esana-news": "latest",
-    "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@blackamda/telegram-image-url": "^1.0.0",
     "youtubedl-core": "^4.11.5",
     "moment-timezone": "latest",
     "file_size_url": "^1.0.4",
-    "hirunews-scrap": "^1.1.2",
-    "mongoose":"8.7.0"
+    "hirunews-scrap": "^1.1.2"
   }
 }
