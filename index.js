@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting NADEEN-MD BOT 💫...");
+console.log("Connecting NADEEN-MD BOT 🎃...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -59,7 +59,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('🕺 Installing')
+console.log('🤴 Installing')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -69,7 +69,27 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `> NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\n◽PREFIX :${prefix}\n\n*🔹 OWNER :* ${ownerNumber}\n\n👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\n\n_Thank you for using_ *👨‍💻NADEEN-MD💗.*\n\n_We're here to make your experience enjoyable and seamless._\n\n_If you need any help or have questions, don't hesitate to ask._ 🌝💗`;
+let up = `🚀 *_NADEEN-MD Connected Successfully!_* ✅ 
+
+--- *😈🎉 _Welcome to NADEEN-MD!_* 🎉😈 
+
+*🔹 PREFIX:* ${prefix}
+
+*🔹 OWNER:* ${ownerNumber}
+
+*🔹 MADE BY:* Nadeen Poorna
+
+_Thank you for using_ *🕺NADEEN-MD💗.*
+_We're here to make your experience enjoyable and seamless._
+_If you need any help or have questions, don't hesitate to ask._ 🌝💗
+
+*🖇️Join My WhatsApp Channel✓💗 - :* https://whatsapp.com/channel/0029VagN2qW3gvWUBhsjcn3I
+
+*🖇️Subscribe My Youtube Channel✓💗 - :* www.youtube.com/@DINKA_FILMS
+
+_*🕺Enjoy your time with us!😊*_
+
+*👨‍💻ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ👨‍💻* `;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/rRdKMrE.png` }, caption: up })
 
@@ -160,15 +180,21 @@ if(senderNumber.includes("94771588807")){
 if(isReact) return
 m.react("👾")
 }
+}
+//=====Auto-Read-Cmd==========
+if (isCmd && config.AUTO_READ_CMD === "true") {
+              await conn.readMessages([mek.key])  // Mark command as read
+}
+//Auto-StatusDL==============        
 //=====================✓
 
-if (config.AUTO_VOICE === 'true') {    
+if (config.AUTO_VOICE === 'true') {
 const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
  }}
-//====================================//
+
         
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -204,9 +230,10 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey,NADEEN-MD started✅");
+res.send("hey, NADEEN-MD started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
 connectToWA()
 }, 4000);  
+
