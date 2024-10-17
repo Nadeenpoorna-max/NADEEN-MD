@@ -4,11 +4,11 @@ const fg = require('api-dylux');
 
 // -------- Song/Video Download --------
 cmd({
-    pattern: 'play',
-    alias: ["yt"],
+    pattern: 'down',
+    alias: ["get"],
     desc: 'Download Song / Video',
     use: '.play Title',
-    react: "📥",
+    react: "🗂",
     category: 'download',
     filename: __filename
 },
