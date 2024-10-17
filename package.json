@@ -24,6 +24,19 @@
     "vm": "^0.1.0",
     "qrcode-terminal": "^0.12.0",
     "yt-search":"2.12.1",
-    "api-dylux":"1.8.5"
+    "api-dylux":"1.8.5",
+    "cheerio" : "1.0.0",
+    "g-i-s": "^2.1.7",
+    "mfiredlcore-vihangayt": "^1.0.0",
+    "@bochilteam/scraper": "latest",
+    "@sl-code-lords/si-subdl": "^1.1.1",
+    "@sl-code-lords/esana-news": "latest",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@blackamda/telegram-image-url": "^1.0.0",
+    "youtubedl-core": "^4.11.5",
+    "moment-timezone": "latest",
+    "file_size_url": "^1.0.4",
+    "hirunews-scrap": "^1.1.2",
+    "mongoose":"8.7.0"
   }
 }
