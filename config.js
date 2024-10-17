@@ -11,5 +11,4 @@ ALIVE_MSG: process.env.ALIVE_MSG || "*👋 Hello ${pushname}* ✫💫𝐍𝐀�
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 MODE: process.env.MODE || "public", //private or public
 AUTO_VOICE:"true" //true or false
-‎AUTO_TYPING:"true"
 };
