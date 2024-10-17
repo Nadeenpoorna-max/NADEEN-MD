@@ -99,6 +99,8 @@ let madeMenu = ` *👋 Hello ${pushname}*
  .derananews
  .sirasanews
  .hirunews
+ .startnews (auto news on)
+ .stopnews (auto news off)
 ╰───────────●●►
 ╭──────────●●►
  🛠️ *𝐓𝐨𝐨𝐥𝐬 𝐌𝐞𝐧𝐮*
