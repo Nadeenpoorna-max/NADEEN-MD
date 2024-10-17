@@ -53,7 +53,7 @@ async function checkAndPostNews(conn, groupId) {
 
         if (!lastNewsTitles[groupId].includes(newsItem.title)) {
             await conn.sendMessage(groupId, { 
-                text: `📰 *${newsItem.title}*\n${newsItem.content}\n${newsItem.date}\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘᴏᴅᴅᴀ ᴍᴅ*` 
+                text: `📰 *${newsItem.title}*\n${newsItem.content}\n${newsItem.date}\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*\n\n> *𝗡𝗔𝗗𝗘𝗘𝗡 - 𝗠𝗗*` 
             });
             lastNewsTitles[groupId].push(newsItem.title);
 
@@ -95,7 +95,7 @@ cmd({
                     }
 
                 } else {
-                    await conn.sendMessage(from, { text: "📰 24/7 News Already Activated." });
+                    await conn.sendMessage(from, { text: "*✅ 24/7 News Already Activated.*\n\n> ©𝗡𝗔𝗗𝗘𝗘𝗡 𝗠𝗗" });
                 }
             } else {
                 await conn.sendMessage(from, { text: "🚫 This command can only be used by group admins or the bot owner." });
@@ -125,7 +125,7 @@ cmd({
             if (isAdmin || isBotOwner) {
                 if (activeGroups[from]) {
                     delete activeGroups[from];
-                    await conn.sendMessage(from, { text: "🛑 24/7 News Deactivated." });
+                    await conn.sendMessage(from, { text: "❌ 24/7 News Deactivated." });
 
                     if (Object.keys(activeGroups).length === 1 && activeGroups['interval']) {
                         clearInterval(activeGroups['interval']);
