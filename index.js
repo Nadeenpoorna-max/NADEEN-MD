@@ -161,14 +161,6 @@ if(isReact) return
 m.react("🧛‍♀️")
 }
 //=====================✓
-//=====Auto-Read-Cmd==========
-if (isCmd && config.AUTO_READ_CMD === "true") {
-              await conn.readMessages([mek.key])  // Mark command as read
-}
-//Auto Typing
-if(config.AUTO_TYPING === 'true'){await conn.sendPresenceUpdate('composing', from);}
-        
-
 if (config.AUTO_VOICE === 'true') {    
 const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
