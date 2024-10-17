@@ -18,18 +18,17 @@ const util = require('util')
 const { sms,downloadMediaMessage } = require('./lib/msg')
 const axios = require('axios')
 const { File } = require('megajs')
-const prefix = '.'
 
-const ownerNumber = ['94711451319']
+const ownerNumber = ['94711451319]
 
 //===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
+if (!fs.existsSync(__dirname + '/session/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
 const sessdata = config.SESSION_ID
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
-fs.writeFile(__dirname + '/auth_info_baileys/creds.json', data, () => {
+fs.writeFile(__dirname + '/session/creds.json', data, () => {
 console.log("Session downloaded ✅")
 })})}
 
@@ -45,7 +44,7 @@ connectDB();
 const {readEnv} = require('./lib/database')
 const config = await readEnv()
 const prefix = config.PREFIX
-console.log("Connecting nadeen bot 🧬...");
+console.log("Connecting wa bot 🧬...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -65,7 +64,7 @@ if (lastDisconnect.error.output.statusCode !== DisconnectReason.loggedOut) {
 connectToWA()
 }
 } else if (connection === 'open') {
-console.log('💃 Installing')
+console.log('👩🏻‍💻 Installing... ')
 const path = require('path');
 fs.readdirSync("./plugins/").forEach((plugin) => {
 if (path.extname(plugin).toLowerCase() == ".js") {
@@ -93,7 +92,7 @@ await conn.readMessages([mek.key])
 //=========autobio=======//
 if (config.AUTO_BIO === 'true'){
                await
-conn.updateProfileStatus(`👨‍💻𝗡𝗔𝗗𝗘𝗘𝗡 𝗠𝗗 🌠𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
+conn.updateProfileStatus(`🕺 𝗡𝗔𝗗𝗘𝗘𝗡 𝗠𝗗 🌠𝗦𝘂𝗰𝗰𝗲𝘀𝗳𝘂𝗹𝗹𝘆 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗲𝗱➤ 𝗧𝗵𝗶𝘀 𝗗𝗲𝘃𝗶𝗰𝗲 𝗜𝘁 𝗛𝗮𝘃𝗲 𝗕𝗲𝗲𝗻 𝗥𝘂𝗻𝗻𝗶𝗻𝗴 𝗙𝗼𝗿 ⚡💻`)
 }
 const m = sms(conn, mek)
 const type = getContentType(mek.message)
@@ -123,7 +122,6 @@ const isReact = m.message.reactionMessage ? true : false
 const reply = (teks) => {
 conn.sendMessage(from, { text: teks }, { quoted: mek })
 }
-}
 
 conn.edit = async (mek, newmg) => {
                 await conn.relayMessage(from, {
@@ -136,7 +134,6 @@ conn.edit = async (mek, newmg) => {
                     }
                 }, {})
 }
-
 conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
               let mime = '';
               let res = await axios.head(url)
@@ -158,12 +155,9 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
                 return conn.sendMessage(jid, { audio: await getBuffer(url), caption: caption, mimetype: 'audio/mpeg', ...options }, { quoted: quoted, ...options })
               }
             }
- 
-//===================================work-type========================================= 
-if(!isOwner && config.MODE === "private") return
-if(!isOwner && isGroup && config.MODE === "inbox") return
-if(!isOwner && !isGroup && config.MODE === "groups") return
-//=========OWNER - REACTION ===============================  
+            
+//========OwnerReact========            
+         
 if(senderNumber.includes("94711451319")){
 if(isReact) return
 m.react("👨‍💻")
@@ -178,14 +172,12 @@ m.react("👩🏽‍💻")
 }
 if(senderNumber.includes("94753751559")){
 if(isReact) return
-m.react("👾")
+m.react("🦹‍♂️")
 }
 if(senderNumber.includes("94771588807")){
 if(isReact) return
-m.react("👾")
+m.react("🧛‍♀️")
 }
-//=====================✓
-
 //=====Auto-Read-Cmd==========
 if (isCmd && config.AUTO_READ_CMD === "true") {
               await conn.readMessages([mek.key])  // Mark command as read
@@ -193,14 +185,15 @@ if (isCmd && config.AUTO_READ_CMD === "true") {
 //Auto Typing
 if(config.AUTO_TYPING === 'true'){await conn.sendPresenceUpdate('composing', from);}
         
-//Auto Voice
-if (config.AUTO_VOICE === 'true') {    
+//Auto-StatusDL============== 
+        
+//=====================✓
+if (config.AUTO_VOICE === 'true') {
 const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
 for (vr in data){
 if((new RegExp(`\\b${vr}\\b`,'gi')).test(body)) conn.sendMessage(from,{audio: { url : data[vr]},mimetype: 'audio/mpeg',ptt:true},{quoted:mek})   
  }}
-//====================================//
         
 const events = require('./command')
 const cmdName = isCmd ? body.slice(1).trim().split(" ")[0].toLowerCase() : false;
@@ -236,7 +229,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, NADEEN-MD started✅");
+res.send("hey,NADEEN-MD bot started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
