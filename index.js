@@ -39,8 +39,13 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting NADEEN-MD BOT 💫...");
-const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
+const connectDB = require('./lib/mongodb')
+connectDB();
+const {readEnv} = require('./lib/database')
+const config = await readEnv()
+const prefix = config.PREFIX
+console.log("Connecting nadeen bot 🧬...");
+const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/session/')
 var { version } = await fetchLatestBaileysVersion()
 
 const conn = makeWASocket({
@@ -69,7 +74,7 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}\n👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\nContact Owner - https://wa.me/+94711451319text=hi_nadeen-md_owner_💝`;
+let up = `NADEEN-MD CONNETED SUCCESSFULLY 🤭✅\n\nPREFIX:${prefix}\n👨‍💻 ɴᴀᴅᴇᴇɴ-ᴍᴅ ᴍᴀᴅᴇ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ 👨‍💻\n*🔹 OWNER:* ${ownerNumber}\n_Thank you for using_ *👨‍💻NADEEN-MD💗.*\n_We're here to make your experience enjoyable and seamless._\n_If you need any help or have questions, don't hesitate to ask._ 🌝💗`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/rRdKMrE.png` }, caption: up })
 
@@ -162,6 +167,14 @@ m.react("👾")
 }
 //=====================✓
 
+//=====Auto-Read-Cmd==========
+if (isCmd && config.AUTO_READ_CMD === "true") {
+              await conn.readMessages([mek.key])  // Mark command as read
+}
+//Auto Typing
+if(config.AUTO_TYPING === 'true'){await conn.sendPresenceUpdate('composing', from);}
+        
+//Auto Voice
 if (config.AUTO_VOICE === 'true') {    
 const url = 'https://raw.githubusercontent.com/Nadeenpoorna-max/NADEENMD_DATABASED/main/autovoice/NADEEN-DATA'
 let { data } = await axios.get(url)
