@@ -1,8 +1,8 @@
+//වාලුක 
 const config = require('../config')
 
 const {cmd , commands} = require('../command')
 
-//වාලුක 
 
 cmd({
 
@@ -45,6 +45,10 @@ reply(`${e}`)
 })
 
 //තරුෂ 
+const config = require('../config')
+
+const {cmd , commands} = require('../command')
+
 cmd({
 
     pattern: "tharusha",
