@@ -52,8 +52,8 @@ async function checkAndPostNews(conn, groupId) {
         }
 
         if (!lastNewsTitles[groupId].includes(newsItem.title)) {
-            await conn.sendMessage(from, { image: { url: news.result.image || '' },(groupId, { 
-                text: `*🔴𝐍𝐄𝐖𝐒 𝐀𝐋𝐄𝐑𝐓!*\n-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷ \n\n\n📰 *${newsItem.title}*\n${newsItem.content}\n\n${newsItem.date}\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*\n> *𝗡𝗔𝗗𝗘𝗘𝗡 - 𝗠𝗗*` 
+           await conn.sendMessage(groupId, { 
+                text: `*🔵𝐍𝐄𝐖𝐒 𝐀𝐋𝐄𝐑𝐓!*\n██████████████████████████████████████████\n\n\n📰 *${newsItem.title}*\n${newsItem.content}\n\n${newsItem.date}\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*\n> *𝗡𝗔𝗗𝗘𝗘𝗡 - 𝗠𝗗*` 
             });
             lastNewsTitles[groupId].push(newsItem.title);
 
@@ -82,7 +82,7 @@ cmd({
                 if (!activeGroups[from]) {
                     activeGroups[from] = true;
 
-                    await conn.sendMessage(from, { text: "📰 24/7 News Activated." });
+                    await conn.sendMessage(from, { text: "🇱🇰 Auto 24/7 News Activated.\n\n> ©𝗡𝗔𝗗𝗘𝗘𝗡 𝗠𝗗" });
 
                     if (!activeGroups['interval']) {
                         activeGroups['interval'] = setInterval(async () => {
@@ -125,14 +125,14 @@ cmd({
             if (isAdmin || isBotOwner) {
                 if (activeGroups[from]) {
                     delete activeGroups[from];
-                    await conn.sendMessage(from, { text: "❌ 24/7 News Deactivated." });
+                    await conn.sendMessage(from, { text: "*🚫 Disable Sri Lankan news updates in this group*" });
 
                     if (Object.keys(activeGroups).length === 1 && activeGroups['interval']) {
                         clearInterval(activeGroups['interval']);
                         delete activeGroups['interval'];
                     }
                 } else {
-                    await conn.sendMessage(from, { text: "🛑 24/7 News is not active in this group." });
+                    await conn.sendMessage(from, { text: "🛑 24/7 News is not active in this group.\n\n> ©𝗡𝗔𝗗𝗘𝗘𝗡 𝗠𝗗" });
                 }
             } else {
                 await conn.sendMessage(from, { text: "🚫 This command can only be used by group admins or the bot owner." });
