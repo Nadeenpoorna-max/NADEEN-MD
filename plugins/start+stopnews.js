@@ -52,8 +52,8 @@ async function checkAndPostNews(conn, groupId) {
         }
 
         if (!lastNewsTitles[groupId].includes(newsItem.title)) {
-            await conn.sendMessage(groupId, { 
-                text: `*🔴𝐍𝐄𝐖𝐒 𝐀𝐋𝐄𝐑𝐓!*\n-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷ \n\n\n📰 *${newsItem.title}*\n${newsItem.content}\n\n${newsItem.date}\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*\n> *𝗡𝗔𝗗𝗘𝗘𝗡 - 𝗠𝗗*`,{ image: { url: news.result.image || '' } 
+            await conn.sendMessage(from, { image: { url: news.result.image || '' },(groupId, { 
+                text: `*🔴𝐍𝐄𝐖𝐒 𝐀𝐋𝐄𝐑𝐓!*\n-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷-̷ \n\n\n📰 *${newsItem.title}*\n${newsItem.content}\n\n${newsItem.date}\n\n> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*\n> *𝗡𝗔𝗗𝗘𝗘𝗡 - 𝗠𝗗*` 
             });
             lastNewsTitles[groupId].push(newsItem.title);
 
