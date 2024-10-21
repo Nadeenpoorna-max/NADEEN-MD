@@ -23,7 +23,7 @@ cmd({
 },
 async(conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
-        if (!q && !q.startsWith("https://")) return reply("මට මෙය හදුනාගැනීමට අපහසුයි🤔.\nඑකෙන් ලබා ගන්නා,Google drive ලින්ක් පමණක් භාවිතා කරන්න ")
+        if (!q && !q.startsWith("https://")) return reply("*⚠Films Download කර ගැනීම සදහා cineru.lk වෙත පිවිස,*.\nෆිල්ම් එක තෝරා\n*HC VIDEO COPY හෝ VIDEO COPY CLICK කර,Google drive[GDRIVE] ලින්ක් ලබා දෙන්න ✅\n\n> contact Owner - 0711451319 ")
         //fetch data from api  
         let data = await fetchJson(`${baseUrl}/api/gdrivedl?url=${q}`)
         reply("🎬*ɴᴀᴅᴇᴇɴ ᴍᴅ ᴄɪɴᴇʀᴜ.ʟᴋ ᴍᴏᴠɪᴇ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ*🎬​ \n*--------------------------------------------*\n𝕐𝕆𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 𝕀𝕊\n*📤𝕌ℙ𝕃𝕆𝔸𝔻𝕀ℕ𝔾 ◽◽◽◽◽◽*\n\n> *ɴᴀᴅᴇᴇɴ-ᴍᴅ ʙʏ ɴᴀᴅᴇᴇɴ ᴘᴏᴏʀɴᴀ*")
